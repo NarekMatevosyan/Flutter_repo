@@ -34,6 +34,23 @@ class MyApp extends StatelessWidget {
               ),
             ),
           ),
+          Container(
+            height: MediaQuery.of(context).size.height / 4,
+            width: MediaQuery.of(context).size.width,
+            decoration: BoxDecoration(
+              borderRadius: BorderRadiusDirectional.circular(15.0),
+              color: Colors.red,
+            ),
+            child: const Center(
+              child: Text(
+                'I merged',
+                style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 30.0,
+                    fontWeight: FontWeight.bold),
+              ),
+            ),
+          ),
         ],
       ),
     );
